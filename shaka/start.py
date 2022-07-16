@@ -4,6 +4,7 @@ from config import SOURCE_CODE, SUPPORT_GROUP, BOT_USERNAME
 from plugins.tr import *
 from plugins.tr import TGPK_TEXT, VSONG_TEXT, PASTE_TEXT, INFO_TEXT, STREAM_TEXT, START_TEXT, HELP_TEXT
 from pyrogram.errors import MessageNotModified
+from shaka.lang import tlang
 
 @Client.on_message(filters.command("start"))
 async def start(client, message):
