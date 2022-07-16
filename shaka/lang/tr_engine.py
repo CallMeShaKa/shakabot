@@ -54,7 +54,7 @@ def tlang(m, user_msg):
 
         # Raise exception if lang_code not found
         if lang not in ENABLED_LOCALES:
-            LOGGER.error("Non-enabled locale used by user!")
+            print("Non-enabled locale used by user!")
             lang = default_lang
 
         # Get lang
