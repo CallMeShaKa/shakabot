@@ -31,7 +31,7 @@ async def start(client, message):
                                   reply_markup=reply_markup
       )      
    else:
-      await message.reply(f"**👋 Hey VcVideoPlayer is Alive! ✨**")
+      await message.reply(tlang(message, "start_msg"))
 
 @Client.on_callback_query()
 async def cb_handler(client: Client, query: CallbackQuery):
