@@ -11,6 +11,4 @@ bot = Client(
 
 
 bot.start()
-app.start()
-call_py.start()
 idle()
