@@ -1,1 +1,10 @@
+---
+main:
+  lang_sample: "US English"
+  language_flag: "🇺🇸"
+  language_name: English
 
+
+strings:
+  plugins:
+    start_msg: ''
