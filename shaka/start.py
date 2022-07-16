@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from config import SOURCE_CODE, SUPPORT_GROUP, UPDATES_CHANNEL, BOT_USERNAME
+from config import SOURCE_CODE, SUPPORT_GROUP, BOT_USERNAME
 from plugins.tr import *
 from plugins.tr import TGPK_TEXT, VSONG_TEXT, PASTE_TEXT, INFO_TEXT, STREAM_TEXT, START_TEXT, HELP_TEXT
 from pyrogram.errors import MessageNotModified
@@ -13,7 +13,7 @@ async def start(client, message):
             ],
             [
                 InlineKeyboardButton("💥 Sᴏᴜʀᴄᴇ", url=f"https://{SOURCE_CODE}"),
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 📢", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 📢", url=f"https://t.me/DeCodeUpdate"),
             ],
             [
                 InlineKeyboardButton("🤖 Bᴏᴛ Lɪꜱᴛ", url=f"https://t.me/DeeCodeBots/32"),
@@ -49,7 +49,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                InlineKeyboardButton("Tᴇʟᴇ ✮ ɢʀᴀᴘʜ", callback_data="tgph"),
             ],
             [
-               InlineKeyboardButton("╰✰ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+               InlineKeyboardButton("╰✰ Cʜᴀɴɴᴇʟ", url=f"https://t.me/DeCodeUpdate"),
                InlineKeyboardButton("Bᴀᴄᴋ", callback_data="start"),
                InlineKeyboardButton ("Sᴜᴘᴘᴏʀᴛ ✰╮", url=f"https://t.me/{SUPPORT_GROUP}"),
             ]
@@ -67,7 +67,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpdate"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -83,7 +83,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpdate"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -99,7 +99,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpdate"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -115,7 +115,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpdate"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -131,7 +131,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [
             [
                 InlineKeyboardButton ("╰✰ Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Uᴘᴅᴀᴛᴇ ✰╮", url=f"https://t.me/DeCodeUpdate"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -150,7 +150,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("💥 Sᴏᴜʀᴄᴇ", url=f"https://{SOURCE_CODE}"),
-                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 📢", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("Cʜᴀɴɴᴇʟ 📢", url=f"https://t.me/DeCodeUpdate"),
             ],
             [
                 InlineKeyboardButton("🤖 Bᴏᴛ Lɪꜱᴛ", url=f"https://t.me/DeeCodeBots/32"),
